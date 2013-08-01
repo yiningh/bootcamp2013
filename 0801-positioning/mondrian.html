@@ -1,0 +1,196 @@
+<!DOCTYPE hitml>
+<html>
+	<head>
+		<title>Brooklyn Bridge</title>
+		<style>
+			html{
+				background-color: #efefef;
+			}
+
+			div{
+				background-color: white;
+			}
+
+			/*following is for the first col */
+			.wrapper1{
+				display:inline-block;
+				width: 140px;
+				margin-right: -4px;
+			}
+
+			.box1{
+				width:100%; 
+				height:115px; 
+			}
+
+			.blackBar1{
+				width:100%; 
+				height:5px; 
+				background: #000; 
+				display: block;
+			}
+
+			.box3{
+				width:100%; 
+				height:55px; 
+				background: white; 
+				display:block;
+			}
+
+			.box4{
+				width:100%; 
+				height:80px; 
+				background: white; 
+				display:block;
+			}
+
+			.box5{
+				width:100%; 
+				height:70px; 
+				background: white; 
+				display:block;
+			}
+
+			/*for second col which is a black vertical col*/
+			.wrapper2{
+				width:9px;
+				height:335px;
+				background: black;
+				display: inline-block;
+				margin-right: -4px;
+			}
+
+			/*for third col*/
+			.wrapper3{
+				width:45px;
+				height: 335px;
+				display: inline-block;
+				margin-right: -4px;
+			}
+
+			.box6{
+				width: 100%;
+				height: 45px;
+			}
+
+			.box7{
+				width: 100%;
+				height: 20px;
+			}
+
+			/*for forth col, a thinner black column*/
+			.wrapper4{
+				width:5px;
+				height:335px;
+				background: black;
+				display: inline-block;
+				margin-right: -4px;
+			}
+
+			/*for fifth col */
+			.wrapper5{
+				width:138px;
+				height: 335px;
+				display: inline-block;
+				margin-right: -4px;
+			}
+
+			.box8{
+				width: 78px;
+				height: 100%;
+				float: left;
+			}
+
+			.box9{
+				width: 5px;
+				height: 100%;
+				background-color: #000;
+				float: left;
+			}
+
+			.box10{
+				width: 55px;
+				height: 100%;
+				float: left;
+			}
+
+			.box11{
+				width: 100%;
+				height: 70px;
+			}
+
+			.box12{
+				width: 100%;
+				height: 45px;
+			}
+
+			.box13{
+				width: 100%;
+				height: 20px;
+			}
+
+
+			.red-bg{background-color: red}
+			.yellow-bg{background-color: yellow}
+			.blue-bg{background-color: blue;}
+
+		</style>
+	</head>
+	<body>
+		<!-- firt column -->
+		<div class="wrapper1">
+			<div class="box1 red-bg"></div>
+			<div class="blackBar1"></div>
+			<div class="box3"></div>
+			<div class="blackBar1"></div>
+			<div class="box4"></div>
+			<div class="blackBar1"></div>
+			<div class="box5"></div>
+		</div>
+
+		<!-- second column -->
+		<div class="wrapper2"></div>
+
+		<!--third col -->
+		<div class="wrapper3">
+			<div class="box1"></div>
+			<div class="blackBar1"></div>
+			<div class="box3"></div>
+			<div class="blackBar1"></div>
+			<div class="box4 yellow-bg"></div>
+			<div class="blackBar1"></div>
+			<div class="box6"></div>
+			<div class="blackBar1"></div>
+			<div class="box7"></div>
+		</div>
+
+		<!--forth col, which is the thin vertical bar -->
+		<div class="wrapper4"></div>
+
+		<!--forth five -->
+		<div class="wrapper5">
+			<div class="box1"></div>
+			<div class="blackBar1"></div>
+			<div class="box3"></div>
+			<div class="blackBar1"></div>
+			<div class="box4">
+				<div class="box8"></div>
+				<div class="box9"></div>
+				<div class="box10 blue-bg"></div>
+			</div>
+			<div class="blackBar1"></div>
+			<div class="box11">
+				<div class="box8">
+					<div class="box12"></div>
+					<div class="blackBar1"></div>
+					<div class="box13"></div>
+				</div>
+				<div class="box9"></div>
+				<div class="box10"></div>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
