@@ -1,0 +1,39 @@
+html, body{
+	width: 100%;
+	height: 100%;
+}
+#box1, #box4, p, footer{
+	width: 80%;
+	height:120%;
+	background-color: pink;
+	position: relative;
+	border: 5px solid grey;
+}
+
+#box2{
+	width: 50%;
+	height:50%;
+	background-color: #000;
+	z-index: 2;
+	position: fixed;
+	top: 30%;
+	left:40px;
+	border:5px dotted #fff;
+	border-radius: 25px;
+	opacity: 0.5;
+}
+
+#box3{
+	width: 20%;
+	height:20%;
+	background-color: #ffcc00;
+	position: absolute;
+	right: 50%;
+	top: 20%;
+	z-index: 3;
+	box-shadow: 0 2px 5px -2px #111,inset 0 2px 5px 0 rgba(255,255,255,.5);
+}
+.innerBox{
+	width: 40%;
+	height:40%;
+}
