@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>our first day demo</title>
+	<!-- We don't need the following links for now, since we don't have the stylesheet now :-) -->
+	<!--
+	<link rel="stylesheet" href="css/mystylesheet.css">
+	<link rel="icon" type="image/icon" href="image/favicon.ico">
+	-->
+	<style>
+		h1{
+			color:blue;
+			text-transform: uppercase;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Hello Brooklyn Bridge!</h1>
+		<img src="img/bridge.png" alt="brooklyn bridge" title="Hello! Mouse over!">
+	</header>
+
+	<section>	
+		<article style="background-color: pink">
+			<h2>Hello this is the demo for our second class!</h2>
+			<ul style="list-style-type:square; color:grey; font-size:18px">
+				<strong>
+				<li>item one</li>
+				<li>item two</li>
+				<li>item three</li>
+				<li>item four</li>
+				<li>item five</li>
+				<li>item six</li>
+				</strong>
+			</ul>
+			<ol>
+				<li>item one</li>
+				<li>item two</li>
+				<li>item three</li>
+				<li>item four</li>
+				<li>item five</li>
+				<li>item six</li>
+			</ol>
+			<!--the following is to show how to align the ordered list centered. 
+			I used a div to wrap the list items, so now the list item are contained inside the box(div). 
+			Now we just have to move the box to the center. What I did here is to set the 'margin-top' and 'margin-bottom'(we will learn this tomorrow) to 0 pixel and the left nad right margins to be equal. We will learn more about spacing tomorrow :-) no worries -->
+			<div style="margin: 0 auto; width:20%">
+				<ol>
+					<li>item one</li>
+					<li>item two</li>
+					<li>item three</li>
+					<li>item four</li>
+					<li>item five</li>
+					<li>item six</li>
+				</ol>
+			</div>
+		</article>
+		
+		<article style="background-color:rgb(150,150,150)"> 
+			<!--you can use rgb(0, 100, 255) or HEX color #232323 to set colors-->
+			<h2>Let me know if you have any question.</h2>
+			<p>at convallis quam ligula et tortor. Sed venenatis facilisis dolor, aliquet iaculis magna rutrum at. Suspendisse venenatis diam eu venenatis venenatis. Mauris in risus a erat malesuada aliquam eget vitae tortor. Mauris vitae ipsum tincidunt, laoreet felis ut, porta mi. Aliquam vel tortor sodales, gravida erat ac, mollis ante.</p>
+		</article>
+	</section>
+
+	<section>
+		<form>
+			<input type="text" width="300px">
+			<!-- there are many ways of doing a button, following are two of the ways-->
+			<input type="submit" value="SURE">
+			<button name="button">this is my button</button>
+		</form>
+	</section>
+
+	<section>
+		<a href="/" target="_blank"><img src="img/01.jpg" alt="dog" title="You just hovered on me."></a>
+		<a href="http://www.lipsum.com/" target="_blank">link to dummy text</a>
+	</section>
+
+	<footer>
+		<p>Created for Awesome Brooklyn Bridge!!! YAY</p>
+	</footer>
+</body>
+</html>
